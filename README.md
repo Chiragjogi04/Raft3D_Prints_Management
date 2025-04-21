@@ -18,3 +18,7 @@
    Node 1 (Initial Node):
    ```bash
    ./raft3d -node-id node1 -raft-addr 192.168.1.10:5000 -http-addr :8080
+
+   Node 2 (Joining Node):
+   ```bash
+   ./raft3d -node-id node2 -raft-addr 192.168.1.11:5000 -http-addr :8080 -join-addr 192.168.1.10:5000
