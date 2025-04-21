@@ -13,7 +13,7 @@
 
 ## ⚙️ Installation & Build
 
-1. **Resolve dependencies**
+1. **Install dependencies**
 
    ```bash
    go mod tidy
