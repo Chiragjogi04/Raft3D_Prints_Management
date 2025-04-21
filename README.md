@@ -65,7 +65,7 @@
 
 ---
 
-## 📋 Usage Examples
+## Working
 
 1. **Add a Printer**
 
@@ -115,14 +115,3 @@
    ```
 
 ---
-
-## ⚙️ Configuration
-
-Customize the following flags when launching your node:
-
-| Flag         | Description                             | Default    |
-| ------------ | --------------------------------------- | ---------- |
-| `-node-id`   | Unique identifier for the Raft node     | `node1`    |
-| `-raft-addr` | Raft communication address (host:port)  | `:5000`    |
-| `-http-addr` | HTTP API address (host:port)            | `:8080`    |
-| `-join-addr` | Address of an existing cluster node     | `""`       |
