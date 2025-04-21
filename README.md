@@ -38,7 +38,7 @@
      -http-addr :8080
    ```
 
-2. **Start Node 2 (Join Node 1)**
+2. **Start Node 2 .**
 
    ```bash
    ./raft3d \
@@ -48,7 +48,7 @@
      -join-addr 192.168.1.10:5000
    ```
 
-3. **Start Node 3 (Join Node 1)**
+3. **Start Node 3 .**
 
    ```bash
    ./raft3d \
