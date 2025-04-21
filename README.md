@@ -29,8 +29,6 @@
 
 ## 🏃 Running the Nodes
 
-> You'll need at least three nodes for a quorum in Raft. Replace IP addresses with your machine's network addresses or `localhost` for testing.
-
 1. **Start Node 1 (Initial Leader)**
 
    ```bash
@@ -59,9 +57,6 @@
      -http-addr :8082 \
      -join-addr 192.168.1.10:5000
    ```
-
-> You can spin up each node in its own terminal window. Ports `8080`, `8081`, `8082` correspond to the HTTP APIs.
-
 ---
 
 ## Working
