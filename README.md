@@ -7,7 +7,6 @@
 ## 🔧 Prerequisites
 
 - Go 1.20 or later installed on your system
-- A multi-node network or multiple terminal windows (for local testing)
 - `curl` for testing the HTTP API
 
 ---
