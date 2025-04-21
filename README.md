@@ -97,8 +97,8 @@
 5. **Update Print Job Status**
 
    ```bash
-   curl -X POST http://localhost:8080/api/v1/print_jobs/j1?status=Running
-   curl -X POST http://localhost:8080/api/v1/print_jobs/j1?status=Done
+   curl -X "POST http://localhost:8080/api/v1/print_jobs/j1?status=Running"
+   curl -X "POST http://localhost:8080/api/v1/print_jobs/j1?status=Done"
    ```
 
 6. **List Print Jobs & Filaments**
